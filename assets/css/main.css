@@ -14,11 +14,11 @@ Theme Name: Jason Stroff
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------*/
 :root {
-	--primary-color:#000;
-	--secondary-color:#373737;
-	--bg-color:#FFF;
-	--secondary-bg-color:#F6F8FA;
-	--theme-color:#F26464;
+	--primary-color: #2E1D25;
+    --secondary-color: #4E3841;
+    --bg-color: #FFF0F5;
+    --secondary-bg-color: #FFE6EE;
+    --theme-color: #FF6B88;
 	/* --primary-color:#FFF;
 	--secondary-color:#C7C7C7;
 	--bg-color:#000;
@@ -52,7 +52,7 @@ svg,img { max-width: 100%; height: auto; }
 .ds-header.ds-fixed-header{ padding:20px 0;box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25); }
 .ds-header-inner{ display: flex; justify-content: space-between; align-items: center; }
 .ds-logo{ text-transform: uppercase; font-size: 18px; letter-spacing: 3px; color: var(--primary-color); display: flex; align-items: center; }
-.ds-logo span{ display:flex; align-items: center; justify-content: center; width: 40px; height: 40px; background-color: var(--primary-color); border-radius: 4px; color: var(--bg-color); font-size: 22px; font-weight: 600; text-align: center; margin-right: 12px; }
+.ds-logo span{ display:flex; align-items: center; justify-content: center; width: 60px; height: 40px; background-color: var(--primary-color); border-radius: 4px; color: var(--bg-color); font-size: 22px; font-weight: 600; text-align: center; margin-right: 12px; }
 .ds-logo:hover{ color: var(--theme-color); }
 .ds-contact{ text-transform: uppercase; font-size: 14px; letter-spacing: 2px; color: var(--primary-color); display: flex; align-items: center; }
 .ds-social{ list-style: none; display: flex; align-items: center; flex-wrap: wrap; }
@@ -71,7 +71,7 @@ svg,img { max-width: 100%; height: auto; }
 .ds-numbervalulist li:last-child{ margin-right: 0; }
 .ds-numbervalulist strong{ display: block; color: var(--theme-color); font-size: 36px; font-weight: 800; }
 .ds-numbervalulist span{ font-size: 16px; letter-spacing: 1px; }
-.name { font-weight: 600; font-size: 40px; line-height: 60px; color: var(--primary-color); }
+.name { font-weight: 600; font-size: 38px; line-height: 60px; color: var(--primary-color); }
 /*-----------------------------------------------------------------
   3. >>> About Style
 ----------------------------------------------------------------*/
