@@ -323,3 +323,8 @@ span.ds-department{ color: var(--secondary-color); font-weight: 500; font-size: 
         padding: 20px;  /* Reduced from 30px */
     }
 }
+
+/* Add this new style for bold text */
+b, strong {
+    font-weight: 700;  /* Increased from default - you can use 800 for even bolder text */
+}
