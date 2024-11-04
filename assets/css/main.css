@@ -210,3 +210,78 @@ span.ds-department{ color: var(--secondary-color); font-weight: 500; font-size: 
     object-fit: cover;
     width: 100%;
 }
+
+/*-----------------------------------------------------------------
+  >>> Achievements Style
+----------------------------------------------------------------*/
+.ds-achievements-section { 
+    padding-bottom: 80px; 
+}
+
+.ds-achievement-list { 
+    padding-left: 70px; 
+    padding-top: 40px; 
+    padding-right: 70px; 
+    padding-bottom: 40px; 
+    background-color: var(--secondary-bg-color); 
+    margin-bottom: 40px; 
+    border-radius: 12px; 
+}
+
+.ds-achievement-list section { 
+    padding-top: 20px; 
+    padding-right: 120px; 
+}
+
+.ds-achievement-title { 
+    display: block; 
+    color: var(--primary-color); 
+    font-size: 30px; 
+    line-height: 36px; 
+    font-weight: 600; 
+    margin-bottom: 30px; 
+}
+
+.ds-achievement-title:hover{ color: var(--theme-color) }
+
+.ds-achievement-list p { 
+    font-weight: 300; 
+    font-size: 18px; 
+    line-height: 30px; 
+    margin-bottom: 20px; 
+}
+
+.ds-achievement-list .col-md-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ds-achievement-list img {
+    border-radius: 10px;
+    max-height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Add specific style for UTD logo */
+.contain-fit-img {
+    object-fit: contain !important;
+    height: auto !important;
+    padding: 20px !important;
+}
+
+/* Add to existing media queries */
+@media (max-width: 768px) {
+    .ds-achievement-list { 
+        padding: 30px; 
+    }
+    .ds-achievement-list section { 
+        padding-right: 0; 
+        padding-bottom: 30px; 
+    }
+    .ds-achievement-list p {
+        font-size: 15px; 
+        line-height: 30px;
+    }
+}
