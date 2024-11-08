@@ -72,6 +72,7 @@ svg,img { max-width: 100%; height: auto; }
 .ds-numbervalulist strong{ display: block; color: var(--theme-color); font-size: 48px; font-weight: 800; }
 .ds-numbervalulist span{ font-size: 16px; letter-spacing: 1px; }
 .name { font-weight: 600; font-size: 38px; line-height: 60px; color: var(--primary-color); }
+.read-as { font-weight: 500; font-size: 24px;}
 .ds-banner figure img {
     border-radius: 10px;
     object-fit: cover;
@@ -82,7 +83,7 @@ svg,img { max-width: 100%; height: auto; }
 .ds-about-section{ padding-top: 60px; padding-bottom: 120px; }
 .ds-heading{ display: inline-block; font-weight: 700; color: var(--primary-color); text-transform: uppercase; letter-spacing: 1px; font-size: 16px; border-bottom: 3px solid var(--theme-color); padding-bottom: 7px; margin-bottom: 23px; }
 .ds-subheading{ display: inline-block; font-weight: 700; color: var(--theme-color); text-transform: uppercase; letter-spacing: 1px; font-size: 12px; padding-bottom: 7px; margin-bottom: 	3px; margin-left: 5px;}
-.ds-about-section p{ color: var(--secondary-color); font-size: 24px; line-height: 40px; font-weight: 300; margin-bottom: 60px; }
+.ds-about-section p{ color: var(--secondary-color); font-size: 20px; line-height: 40px; font-weight: 300; margin-bottom: 60px; }
 .ds-button{ display: inline-block; text-transform: uppercase;font-size: 12px;line-height: 13px;font-weight: 600;letter-spacing: 3px; color:var(--theme-color); padding:17px 30px;  border: 2px solid var(--theme-color);border-radius: 60px; }
 .ds-button:hover{ background-color:var(--theme-color) ; color: var(--bg-color); }
 .ds-arrow-button i{ display: inline-block; vertical-align: middle; }
