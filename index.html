@@ -22,6 +22,11 @@
     <link rel="icon" href="assets/images/icon.png" type="image/png">
 
     <title>Rajrajeshwari G</title>
+    <script>
+      // Define URLs as variables for easy updating
+      const WALMART_ANALYSIS_URL = 'https://www.figma.com/deck/zgpC01Ts0WDBuAlQyZDrpc/Walmart-Sales?node-id=1-32&t=5zObQ1uNmXmQUQdE-1';
+      const DINEWISE_URL = 'https://www.figma.com/deck/6vyv1RSxr9fBMt3IZUQQbM/DineWise?node-id=5-382&t=cMYqPn5jAVo5n2Y7-1';
+    </script>
   </head>
   <body>
    
@@ -349,7 +354,7 @@
               <div class="row">
                   <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
                       <section>
-                          <a class="ds-work-title" href="walmart_store_performance.html">Walmart Store Performance Analysis</a>
+                          <a class="ds-work-title" id="walmart-analysis-title" target="_blank">Walmart Store Performance Analysis</a>
                           <p>
                             A comprehensive analysis of Walmart's store performance across 45 locations, focusing on sales patterns 
                             and influencing factors.
@@ -360,11 +365,34 @@
                             size, temperature, and holiday seasons significantly impact sales performance, with Store 20 showing the 
                             highest holiday sales performance.
                           </p>
-                          <a href="walmart_store_performance.html" class="ds-button">Details</a>
+                          <a id="walmart-analysis-button" class="ds-button" target="_blank">Details</a>
                       </section>
                   </div>
                   <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
                       <img src="assets/images/walmart.webp" alt="Walmart Store Performance Analysis">
+                  </div>
+              </div>
+            </div>
+
+            <div class="ds-work-list">
+              <div class="row">
+                  <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+                      <section>
+                          <a class="ds-work-title" id="dinewise-analysis-title" target="_blank">Dinewise</a>
+                          <p>
+                            Worked on the creation of a digital product named Dinewise with a mission to 
+                            connect diners with restaurants by offering exclusive discounts, seamless 
+                            reservation experiences, and personalized dining recommendations, 
+                            while promoting less food wastage.
+                          </p>
+                          <p>
+                            Worked on product roadmaps, wireframes, budgeting and more.
+                          </p>
+                          <a id="dinewise-analysis-button" class="ds-button">Details</a>
+                      </section>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+                    <img src="assets/images/dinewise.png" alt="Dinewise" style="width: 100%; height: auto; object-fit: contain;">
                   </div>
               </div>
             </div>
@@ -452,5 +480,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
     <script src="assets/js/main.js"></script>
+    <script>
+      // Set URLs for links
+      document.getElementById('walmart-analysis-title').href = WALMART_ANALYSIS_URL;
+      document.getElementById('walmart-analysis-button').href = WALMART_ANALYSIS_URL;
+      document.getElementById('dinewise-analysis-title').href = DINEWISE_URL;
+      document.getElementById('dinewise-analysis-button').href = DINEWISE_URL;
+    </script>
   </body>
 </html>
