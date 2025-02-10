@@ -14,11 +14,11 @@ Theme Name: Jason Stroff
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------*/
 :root {
-	--primary-color: #2E1D25;
-    --secondary-color: #4E3841;
-    --bg-color: #FFF0F5;
-    --secondary-bg-color: #FFE6EE;
-    --theme-color: #FF6B88;
+	--primary-color: #1a365d;    /* Deep blue for primary text */
+    --secondary-color: #0a1929;  /* Medium blue for secondary text */
+    --bg-color: #ffffff;         /* Pure white background */
+    --secondary-bg-color: #f7fafc; /* Very light blue/gray background */
+    --theme-color: #3182ce;      /* Bright blue for accents/highlights */
 	/* --primary-color:#FFF;
 	--secondary-color:#C7C7C7;
 	--bg-color:#000;
