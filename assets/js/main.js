@@ -49,3 +49,45 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Typing effect
+const words = ["Graduate Student", "Business Analyst", "Perfect Girlfriend"];
+let wordIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
+const typingSpeed = 100;
+const deletingSpeed = 50;
+const pauseEnd = 2000;
+
+function typeEffect() {
+  const currentWord = words[wordIndex];
+  const typedText = document.getElementById("typed-text");
+  
+  if (isDeleting) {
+    // Deleting text
+    typedText.textContent = currentWord.substring(0, charIndex - 1);
+    charIndex--;
+    
+    if (charIndex === 0) {
+      isDeleting = false;
+      wordIndex = (wordIndex + 1) % words.length;
+    }
+  } else {
+    // Typing text
+    typedText.textContent = currentWord.substring(0, charIndex + 1);
+    charIndex++;
+    
+    if (charIndex === currentWord.length) {
+      isDeleting = true;
+      setTimeout(typeEffect, pauseEnd);
+      return;
+    }
+  }
+  
+  setTimeout(typeEffect, isDeleting ? deletingSpeed : typingSpeed);
+}
+
+// Add to existing window.onload or create new one
+document.addEventListener('DOMContentLoaded', function() {
+  typeEffect();
+});
