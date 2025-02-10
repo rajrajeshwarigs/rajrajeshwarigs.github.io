@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Typing effect
-const words = ["Graduate Student", "Business Analyst", "Perfect Girlfriend"];
+const words = ["Graduate Student", "Business Analyst", "Marketing Expert"];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
