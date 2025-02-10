@@ -23,9 +23,13 @@ document.addEventListener('DOMContentLoaded', function() {
     
     tabLinks.forEach(link => {
         link.addEventListener('click', function(e) {
-            e.preventDefault();
+            const href = this.getAttribute('href');
             
-            const targetId = this.getAttribute('href').substring(1);
+            // Only handle links that start with #
+            if (!href.startsWith('#')) return;
+            
+            e.preventDefault();
+            const targetId = href.substring(1);
             const targetElement = document.getElementById(targetId);
             
             if (targetElement) {
