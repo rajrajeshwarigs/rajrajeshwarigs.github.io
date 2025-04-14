@@ -191,6 +191,22 @@ span.ds-department{ color: var(--secondary-color); font-weight: 500; font-size: 
     margin-bottom: 40px; 
     border-radius: 12px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.click-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.ds-work-list > * {
+    position: relative;
+    z-index: 2;
 }
 
 .ds-work-list:hover {

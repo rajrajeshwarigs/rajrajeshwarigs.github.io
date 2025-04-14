@@ -26,6 +26,8 @@
       // Define URLs as variables for easy updating
       const WALMART_ANALYSIS_URL = 'https://www.figma.com/deck/zgpC01Ts0WDBuAlQyZDrpc/Walmart-Sales?node-id=1-32&t=5zObQ1uNmXmQUQdE-1';
       const DINEWISE_URL = 'https://www.figma.com/deck/6vyv1RSxr9fBMt3IZUQQbM/DineWise?node-id=5-382&t=cMYqPn5jAVo5n2Y7-1';
+      const NIKE_PROJECT_URL = 'assets/nike_project.pdf';
+      const DELIVERY_TIME_PREDICTION_URL = 'delivery_time_prediction.html';
     </script>
   </head>
   <body>
@@ -61,8 +63,27 @@
    <div class="ds-work-section" id="projects">
      <div class="container">
           <h2 class="ds-heading">Projects</h2>
+
           <div class="ds-work-list-section">
-            <div class="ds-work-list" onclick="window.open(WALMART_ANALYSIS_URL);">
+            <div class="ds-work-list">
+              <div class="row">
+                  <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+                      <section>
+                          <a class="ds-work-title" id="nike-project-title" target="_blank">Nike | Digital Marketing Performance Analysis</a>
+                          <p>
+                            In this project, we used Google Analytics to analyze Nike’s e-commerce performance, focusing on revenue, conversion, and user engagement. The data revealed a 76% year-over-year revenue increase, driven by direct and referral channels, and a 39% rise in conversion rates with a strong gain in first-time purchasers. Browser and device insights from GA helped us identify performance gaps—especially high bounce rates on mobile, tablets, and certain browsers like Safari In-App. Based on these findings, we recommended UX improvements, A/B testing, and better attribution modeling. The project showcased how Google Analytics can drive strategic, data-informed marketing decisions.
+                          </p>
+                          <a id="nike-project-button" class="ds-button" target="_blank">Details</a>
+                      </section>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+                      <img src="assets/images/nike_project.jpg" alt="Nike Project Google Analytics" onclick="window.open(NIKE_PROJECT_URL);">
+                  </div>
+              </div>
+            </div>
+
+          <div class="ds-work-list-section">
+            <div class="ds-work-list">
               <div class="row">
                   <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
                       <section>
@@ -81,12 +102,12 @@
                       </section>
                   </div>
                   <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-                      <img src="assets/images/walmart.webp" alt="Walmart Store Performance Analysis">
+                      <img src="assets/images/walmart.webp" alt="Walmart Store Performance Analysis" onclick="window.open(WALMART_ANALYSIS_URL);">
                   </div>
               </div>
             </div>
 
-            <div class="ds-work-list" onclick="window.open(DINEWISE_URL);">
+            <div class="ds-work-list">
               <div class="row">
                   <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
                       <section>
@@ -104,7 +125,7 @@
                       </section>
                   </div>
                   <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-                    <img src="assets/images/dinewise.png" alt="Dinewise" style="width: 100%; height: auto; object-fit: contain;">
+                    <img src="assets/images/dinewise.png" alt="Dinewise" style="width: 100%; height: auto; object-fit: contain;" onclick="window.open(DINEWISE_URL);">
                   </div>
               </div>
             </div>
@@ -113,7 +134,7 @@
               <div class="row">
                   <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
                       <section>
-                          <a class="ds-work-title" href="delivery_time_prediction.html">Delivery Time Prediction Model</a>
+                          <a class="ds-work-title" id="delivery-time-prediction-title">Delivery Time Prediction Model</a>
                           <p>
                             Development of machine learning models to predict delivery delays and enhance delivery precision for 
                             Walmart's operations.
@@ -123,11 +144,11 @@
                             to assess the probability of late deliveries based on historical data. The project aimed to improve 
                             delivery accuracy and customer satisfaction through data-driven insights.
                           </p>
-                          <a href="delivery_time_prediction.html" class="ds-button">Details</a>
+                          <a id="delivery-time-prediction-button" class="ds-button">Details</a>
                       </section>
                   </div>
                   <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-                    <img src="assets/images/placeholder_analysis.webp" alt="Delivery Time Prediction Model">
+                    <img src="assets/images/placeholder_analysis.webp" alt="Delivery Time Prediction Model" onclick="window.location.href=DELIVERY_TIME_PREDICTION_URL;">
                   </div>
               </div>
             </div>
@@ -199,6 +220,10 @@
       document.getElementById('walmart-analysis-button').href = WALMART_ANALYSIS_URL;
       document.getElementById('dinewise-analysis-title').href = DINEWISE_URL;
       document.getElementById('dinewise-analysis-button').href = DINEWISE_URL;
+      document.getElementById('nike-project-title').href = NIKE_PROJECT_URL;
+      document.getElementById('nike-project-button').href = NIKE_PROJECT_URL;
+      document.getElementById('delivery-time-prediction-title').href = DELIVERY_TIME_PREDICTION_URL;
+      document.getElementById('delivery-time-prediction-button').href = DELIVERY_TIME_PREDICTION_URL;
     </script>
   </body>
 </html>
