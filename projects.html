@@ -30,6 +30,7 @@
       const DATA_VIZ_PHARMA_URL = 'https://www.figma.com/proto/KzMqlczEZSZ8Xo32GkYONp/Data-Visualization---banking-and-pharma?page-id=2%3A96737&node-id=2-99500&p=f&viewport=741%2C380%2C0.2&t=SBa7pjSNmbhtrnyU-1&scaling=min-zoom&content-scaling=fixed';
       const NIKE_PROJECT_URL = 'assets/nike_project.pdf';
       const DELIVERY_TIME_PREDICTION_URL = 'delivery_time_prediction.html';
+      const HEALTHCARE_PROJECT_URL = 'https://github.com/rajrajeshwarigs/practicum';
     </script>
   </head>
   <body>
@@ -65,6 +66,27 @@
    <div class="ds-work-section" id="projects">
      <div class="container">
           <h2 class="ds-heading">Projects</h2>
+
+          <div class="ds-work-list">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+                    <section>
+                        <a class="ds-work-title" id="healthcare-project-title" target="_blank">Healthcare Price Data Transparency</a>
+                        <p>
+                          Developed a scalable Azure-based data pipeline for healthcare price transparency, automating ingestion of machine-readable hospital pricing files using Azure Functions, Blob Storage, and SQL 
+                        </p>
+                        <p>
+                          Transformed raw datasets into queryable formats and built an interactive web interface for data exploration, enhancing public access to hospital cost information and supporting policy analysis.
+                        </p>
+
+                        <a id="healthcare-project-button" class="ds-button" target="_blank">Details</a>
+                    </section>
+                </div>
+                <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+                  <img src="assets/images/healthcare-project.png" alt="Healthcare" style="width: 100%; height: auto; object-fit: contain;" onclick="window.open(HEALTHCARE_PROJECT_URL);">
+                </div>
+            </div>
+          </div>
 
           <div class="ds-work-list">
             <div class="row">
@@ -271,6 +293,8 @@
       document.getElementById('nike-project-button').href = NIKE_PROJECT_URL;
       document.getElementById('delivery-time-prediction-title').href = DELIVERY_TIME_PREDICTION_URL;
       document.getElementById('delivery-time-prediction-button').href = DELIVERY_TIME_PREDICTION_URL;
+      document.getElementById('healthcare-project-title').href = HEALTHCARE_PROJECT_URL;
+      document.getElementById('healthcare-project-button').href = HEALTHCARE_PROJECT_URL;
     </script>
   </body>
 </html>
