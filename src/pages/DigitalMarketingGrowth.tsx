@@ -388,9 +388,7 @@ const DigitalMarketingGrowth = () => {
             <div className="grid md:grid-cols-2 gap-4">
               {[
                 { name: "Google Ads Search Certification", issuer: "Google Skillshop", link: "https://skillshop.credential.net/76ad5f27-c0eb-4b28-8bd3-d340215a9796#acc.93sPgZHJ" },
-                { name: "Google Analytics Individual Qualification", issuer: "Google Skillshop" },
-                { name: "Meta Certified Media Planning Professional", issuer: "Meta Blueprint" },
-                { name: "Meta Certified Media Buying Professional", issuer: "Meta Blueprint" }
+                { name: "Google Analytics Individual Qualification", issuer: "Google Skillshop" }
               ].map((cert) => {
                 const cardContent = (
                   <>

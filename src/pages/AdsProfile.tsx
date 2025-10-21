@@ -243,12 +243,8 @@ const AdsProfile = () => {
             <h2 className="font-serif text-3xl font-bold mb-6 text-foreground">Certifications</h2>
             <div className="grid md:grid-cols-2 gap-4">
               {[
-                { name: "Meta Certified Media Planning Professional", issuer: "Meta Blueprint" },
-                { name: "Meta Certified Media Buying Professional", issuer: "Meta Blueprint" },
                 { name: "Google Ads Search Certification", issuer: "Google Skillshop", link: "https://skillshop.credential.net/76ad5f27-c0eb-4b28-8bd3-d340215a9796#acc.93sPgZHJ" },
-                { name: "Google Ads Display Certification", issuer: "Google Skillshop" },
-                { name: "Google Analytics Individual Qualification", issuer: "Google Skillshop" },
-                { name: "Google Ads Measurement Certification", issuer: "Google Skillshop" }
+                { name: "Google Analytics Individual Qualification", issuer: "Google Skillshop" }
               ].map((cert) => {
                 const cardContent = (
                   <>
