@@ -30,7 +30,7 @@ const Experience = () => {
     },
     {
       type: "work",
-      title: "Associate, Marketing Analyst",
+      title: "Associate",
       company: "Aisle Private Limited",
       period: "Jan 2023 – July 2023",
       description: "Led data-driven marketing analytics and growth optimization across multiple products.",
@@ -45,7 +45,7 @@ const Experience = () => {
     },
     {
       type: "work",
-      title: "Co-Founder, Strategy, Analytics & Operations",
+      title: "Co-Founder",
       company: "Article1",
       period: "Jan 2020 – Jan 2023",
       description: "Led strategy, analytics, and operations for wellness-focused brand, combining data analysis with growth initiatives.",
