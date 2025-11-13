@@ -140,9 +140,9 @@ const Experience = () => {
             </p>
             <div className="mt-6">
               <Button asChild size="lg">
-                <a href="https://rajrajeshwarigs.github.io/assets/resume.pdf" download>
+                <a href="mailto:rajrajeshwarigangadhar98@gmail.com?subject=Resume%20Request&body=Hi%20Rajrajeshwari%2C%0A%0AI%20would%20like%20to%20request%20a%20copy%20of%20your%20resume.%0A%0AThank%20you!">
                   <FileDown className="mr-2 h-5 w-5" />
-                  Download Resume
+                  Request Resume
                 </a>
               </Button>
             </div>

@@ -39,7 +39,7 @@ const Beyond = () => {
       bgColor: "bg-blue-50 dark:bg-blue-950/30",
       borderColor: "border-blue-200 dark:border-blue-800",
       image: fitnessImage,
-      link: "https://www.strava.com/athletes/rajrajeshwari",
+      link: "https://strava.app.link/y4NanYMXFXb",
       linkText: "View my Strava",
     },
     {
