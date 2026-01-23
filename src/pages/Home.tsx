@@ -88,11 +88,11 @@ const Home = () => {
                   Let's Connect
                 </a>
               </Button>
-              {/* <Button asChild variant="outline" size="lg">
+              <Button asChild variant="outline" size="lg">
                 <Link to="/experience">
                   Resume
                 </Link>
-              </Button> */}
+              </Button>
             </div>
 
             <div className="pt-8">
@@ -113,7 +113,7 @@ const Home = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
             {[
               { to: "/about", title: "About Me", description: "My story and passions" },
-              // { to: "/experience", title: "Experience", description: "Professional journey" },
+              { to: "/experience", title: "Experience", description: "Professional journey" },
               { to: "/projects", title: "Projects", description: "Creative portfolio" },
               { to: "/beyond", title: "Beyond Work", description: "Life outside code" },
             ].map((item, index) => (
